@@ -25,13 +25,6 @@ const Home = () => {
     console.log(index);
     setInput(values[index]);
   };
-  // return function () {
-  //   console.log(inputRef.current.value, "index===>", currentIndex);
-  //   const array = values;
-  //   array[currentIndex.current] = inputRef.current.value;
-  //   setValues(array);
-  //   console.log(values);
-  // };
   const handleEditSubmit = () => {
     console.log(currentIndex.current);
     values[currentIndex.current] = input;
